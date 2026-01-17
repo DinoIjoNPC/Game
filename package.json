@@ -1,0 +1,24 @@
+{
+  "name": "multiplayer-game",
+  "version": "1.0.0",
+  "description": "Online multiplayer game with random 6-digit room IDs",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "install-all": "npm install && cd backend && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["multiplayer", "game", "online", "socket.io", "real-time"],
+  "author": "Multiplayer Game Team",
+  "license": "MIT"
+}
